@@ -13,7 +13,82 @@
 		F0E80F7F2346F56700808912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E80F7E2346F56700808912 /* Assets.xcassets */; };
 		F0E80F822346F56700808912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E80F802346F56700808912 /* LaunchScreen.storyboard */; };
 		F0E80F852346F56700808912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E80F842346F56700808912 /* main.m */; };
+		F0E810EA234719DF00808912 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E810DC2347193A00808912 /* ReactiveObjC.framework */; };
+		F0E810EB234719DF00808912 /* ReactiveObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0E810DC2347193A00808912 /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0E810D72347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725EA19E49ED7006002AA;
+			remoteInfo = "ReactiveObjC-macOS";
+		};
+		F0E810D92347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725F519E49ED7006002AA;
+			remoteInfo = "ReactiveObjC-macOSTests";
+		};
+		F0E810DB2347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047260C19E49F82006002AA;
+			remoteInfo = "ReactiveObjC-iOS";
+		};
+		F0E810DD2347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047261619E49F82006002AA;
+			remoteInfo = "ReactiveObjC-iOSTests";
+		};
+		F0E810DF2347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9B315541B3940610001CB9C;
+			remoteInfo = "ReactiveObjC-watchOS";
+		};
+		F0E810E12347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57A4D2411BA13D7A00F7D4B1;
+			remoteInfo = "ReactiveObjC-tvOS";
+		};
+		F0E810E32347193A00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DFBED031CDB8C9500EE435B;
+			remoteInfo = "ReactiveObjC-tvOSTests";
+		};
+		F0E810EC234719DF00808912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D047260B19E49F82006002AA;
+			remoteInfo = "ReactiveObjC-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0E810EE234719E000808912 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0E810EB234719DF00808912 /* ReactiveObjC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F0E80F722346F56500808912 /* ReactiveObjc+MVVM_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveObjc+MVVM_Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +101,7 @@
 		F0E80F812346F56700808912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E80F832346F56700808912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E80F842346F56700808912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveObjC.xcodeproj; path = ReactiveObjC/ReactiveObjC.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E810EA234719DF00808912 /* ReactiveObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +121,7 @@
 			children = (
 				F0E80F742346F56500808912 /* ReactiveObjc+MVVM_Demo */,
 				F0E80F732346F56500808912 /* Products */,
+				F0E810E52347196200808912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +136,7 @@
 		F0E80F742346F56500808912 /* ReactiveObjc+MVVM_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */,
 				F0E80F752346F56500808912 /* AppDelegate.h */,
 				F0E80F762346F56500808912 /* AppDelegate.m */,
 				F0E80F782346F56500808912 /* ViewController.h */,
@@ -71,6 +150,27 @@
 			path = "ReactiveObjc+MVVM_Demo";
 			sourceTree = "<group>";
 		};
+		F0E810CE2347193A00808912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0E810D82347193A00808912 /* ReactiveObjC.framework */,
+				F0E810DA2347193A00808912 /* ReactiveObjCTests.xctest */,
+				F0E810DC2347193A00808912 /* ReactiveObjC.framework */,
+				F0E810DE2347193A00808912 /* ReactiveObjCTests.xctest */,
+				F0E810E02347193A00808912 /* ReactiveObjC.framework */,
+				F0E810E22347193A00808912 /* ReactiveObjC.framework */,
+				F0E810E42347193A00808912 /* ReactiveObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0E810E52347196200808912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,10 +181,12 @@
 				F0E80F6E2346F56500808912 /* Sources */,
 				F0E80F6F2346F56500808912 /* Frameworks */,
 				F0E80F702346F56500808912 /* Resources */,
+				F0E810EE234719E000808912 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0E810ED234719DF00808912 /* PBXTargetDependency */,
 			);
 			name = "ReactiveObjc+MVVM_Demo";
 			productName = "ReactiveObjc+MVVM_Demo";
@@ -116,12 +218,70 @@
 			mainGroup = F0E80F692346F56500808912;
 			productRefGroup = F0E80F732346F56500808912 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F0E810CE2347193A00808912 /* Products */;
+					ProjectRef = F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F0E80F712346F56500808912 /* ReactiveObjc+MVVM_Demo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F0E810D82347193A00808912 /* ReactiveObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveObjC.framework;
+			remoteRef = F0E810D72347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0E810DA2347193A00808912 /* ReactiveObjCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveObjCTests.xctest;
+			remoteRef = F0E810D92347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0E810DC2347193A00808912 /* ReactiveObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveObjC.framework;
+			remoteRef = F0E810DB2347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0E810DE2347193A00808912 /* ReactiveObjCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveObjCTests.xctest;
+			remoteRef = F0E810DD2347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0E810E02347193A00808912 /* ReactiveObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveObjC.framework;
+			remoteRef = F0E810DF2347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0E810E22347193A00808912 /* ReactiveObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveObjC.framework;
+			remoteRef = F0E810E12347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0E810E42347193A00808912 /* ReactiveObjCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveObjCTests.xctest;
+			remoteRef = F0E810E32347193A00808912 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F0E80F702346F56500808912 /* Resources */ = {
@@ -148,6 +308,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0E810ED234719DF00808912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveObjC-iOS";
+			targetProxy = F0E810EC234719DF00808912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0E80F7B2346F56500808912 /* Main.storyboard */ = {
@@ -284,13 +452,19 @@
 		F0E80F892346F56700808912 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "ReactiveObjc+MVVM_Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.ReactiveObjc-MVVM-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,13 +474,19 @@
 		F0E80F8A2346F56700808912 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "ReactiveObjc+MVVM_Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.ReactiveObjc-MVVM-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
