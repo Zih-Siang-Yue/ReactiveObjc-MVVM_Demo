@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F0E80F772346F56500808912 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E80F762346F56500808912 /* AppDelegate.m */; };
-		F0E80F7A2346F56500808912 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E80F792346F56500808912 /* ViewController.m */; };
 		F0E80F7D2346F56500808912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E80F7B2346F56500808912 /* Main.storyboard */; };
 		F0E80F7F2346F56700808912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E80F7E2346F56700808912 /* Assets.xcassets */; };
 		F0E80F822346F56700808912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E80F802346F56700808912 /* LaunchScreen.storyboard */; };
 		F0E80F852346F56700808912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E80F842346F56700808912 /* main.m */; };
 		F0E810EA234719DF00808912 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E810DC2347193A00808912 /* ReactiveObjC.framework */; };
 		F0E810EB234719DF00808912 /* ReactiveObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0E810DC2347193A00808912 /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0E810F4234AD67000808912 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E810F2234AD66F00808912 /* LoginViewController.m */; };
+		F0E810F5234AD67000808912 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E810F3234AD66F00808912 /* LoginViewController.xib */; };
+		F0E810F9234AD90900808912 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E810F8234AD90900808912 /* BaseViewModel.m */; };
+		F0E810FD234AD9D900808912 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E810FC234AD9D900808912 /* BaseViewController.m */; };
+		F0E8110B234ADAD400808912 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E8110A234ADAD400808912 /* LoginViewModel.m */; };
+		F0E8110F234ADD5800808912 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E8110E234ADD5800808912 /* NSString+Utils.m */; };
+		F0E81113234AEE0200808912 /* UITextField+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E81112234AEE0200808912 /* UITextField+Utils.m */; };
+		F0E81119234B0A8200808912 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E81118234B0A8200808912 /* LoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,14 +101,28 @@
 		F0E80F722346F56500808912 /* ReactiveObjc+MVVM_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveObjc+MVVM_Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E80F752346F56500808912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0E80F762346F56500808912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0E80F782346F56500808912 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F0E80F792346F56500808912 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0E80F7C2346F56500808912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0E80F7E2346F56700808912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E80F812346F56700808912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E80F832346F56700808912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E80F842346F56700808912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveObjC.xcodeproj; path = ReactiveObjC/ReactiveObjC.xcodeproj; sourceTree = SOURCE_ROOT; };
+		F0E810F1234AD66F00808912 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F0E810F2234AD66F00808912 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F0E810F3234AD66F00808912 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F0E810F7234AD90900808912 /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		F0E810F8234AD90900808912 /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		F0E810FA234AD92200808912 /* ViewModelType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelType.h; sourceTree = "<group>"; };
+		F0E810FB234AD9D900808912 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F0E810FC234AD9D900808912 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F0E81109234ADAD400808912 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		F0E8110A234ADAD400808912 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		F0E8110D234ADD5800808912 /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		F0E8110E234ADD5800808912 /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		F0E81111234AEE0200808912 /* UITextField+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Utils.h"; sourceTree = "<group>"; };
+		F0E81112234AEE0200808912 /* UITextField+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Utils.m"; sourceTree = "<group>"; };
+		F0E81117234B0A8200808912 /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		F0E81118234B0A8200808912 /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,13 +160,15 @@
 				F0E810CD2347193A00808912 /* ReactiveObjC.xcodeproj */,
 				F0E80F752346F56500808912 /* AppDelegate.h */,
 				F0E80F762346F56500808912 /* AppDelegate.m */,
-				F0E80F782346F56500808912 /* ViewController.h */,
-				F0E80F792346F56500808912 /* ViewController.m */,
 				F0E80F7B2346F56500808912 /* Main.storyboard */,
 				F0E80F7E2346F56700808912 /* Assets.xcassets */,
 				F0E80F802346F56700808912 /* LaunchScreen.storyboard */,
 				F0E80F832346F56700808912 /* Info.plist */,
 				F0E80F842346F56700808912 /* main.m */,
+				F0E8111B234B0AB500808912 /* Login */,
+				F0E81108234ADAAD00808912 /* Base */,
+				F0E81107234ADAA100808912 /* Protocol */,
+				F0E81110234ADD9B00808912 /* Utils */,
 			);
 			path = "ReactiveObjc+MVVM_Demo";
 			sourceTree = "<group>";
@@ -169,6 +192,90 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E810F6234AD8BA00808912 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0E810F1234AD66F00808912 /* LoginViewController.h */,
+				F0E810F2234AD66F00808912 /* LoginViewController.m */,
+				F0E810F3234AD66F00808912 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		F0E810FE234ADA4000808912 /* BaseVM */ = {
+			isa = PBXGroup;
+			children = (
+				F0E810F7234AD90900808912 /* BaseViewModel.h */,
+				F0E810F8234AD90900808912 /* BaseViewModel.m */,
+			);
+			path = BaseVM;
+			sourceTree = "<group>";
+		};
+		F0E81106234ADA9500808912 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				F0E810FB234AD9D900808912 /* BaseViewController.h */,
+				F0E810FC234AD9D900808912 /* BaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		F0E81107234ADAA100808912 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F0E810FA234AD92200808912 /* ViewModelType.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F0E81108234ADAAD00808912 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F0E810FE234ADA4000808912 /* BaseVM */,
+				F0E81106234ADA9500808912 /* BaseVC */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F0E8110C234ADADB00808912 /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81109234ADAD400808912 /* LoginViewModel.h */,
+				F0E8110A234ADAD400808912 /* LoginViewModel.m */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		F0E81110234ADD9B00808912 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8110D234ADD5800808912 /* NSString+Utils.h */,
+				F0E8110E234ADD5800808912 /* NSString+Utils.m */,
+				F0E81111234AEE0200808912 /* UITextField+Utils.h */,
+				F0E81112234AEE0200808912 /* UITextField+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F0E8111A234B0A8A00808912 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81117234B0A8200808912 /* LoadingView.h */,
+				F0E81118234B0A8200808912 /* LoadingView.m */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		F0E8111B234B0AB500808912 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8111A234B0A8A00808912 /* LoadingView */,
+				F0E810F6234AD8BA00808912 /* LoginViewController */,
+				F0E8110C234ADADB00808912 /* LoginViewModel */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E810F5234AD67000808912 /* LoginViewController.xib in Resources */,
 				F0E80F822346F56700808912 /* LaunchScreen.storyboard in Resources */,
 				F0E80F7F2346F56700808912 /* Assets.xcassets in Resources */,
 				F0E80F7D2346F56500808912 /* Main.storyboard in Resources */,
@@ -301,9 +409,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E80F7A2346F56500808912 /* ViewController.m in Sources */,
+				F0E810F4234AD67000808912 /* LoginViewController.m in Sources */,
+				F0E81119234B0A8200808912 /* LoadingView.m in Sources */,
+				F0E810FD234AD9D900808912 /* BaseViewController.m in Sources */,
 				F0E80F852346F56700808912 /* main.m in Sources */,
+				F0E8110B234ADAD400808912 /* LoginViewModel.m in Sources */,
 				F0E80F772346F56500808912 /* AppDelegate.m in Sources */,
+				F0E81113234AEE0200808912 /* UITextField+Utils.m in Sources */,
+				F0E810F9234AD90900808912 /* BaseViewModel.m in Sources */,
+				F0E8110F234ADD5800808912 /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -441,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
